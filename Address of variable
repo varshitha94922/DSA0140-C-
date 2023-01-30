@@ -6,7 +6,7 @@ int main ()
    int  first,sec,third;
    
    cout<<"Enter The Value Of First and Second Variable and Third Variable \n\n\n";
-   cin>>first>>sec;
+   cin>>first>>sec>>third;
 
    cout << "Address Of First Variable :\n\n";
    cout << &first <<"\n";
