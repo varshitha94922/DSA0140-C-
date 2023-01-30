@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+   int  first,sec,third;
+   
+   cout<<"Enter The Value Of First and Second Variable and Third Variable \n\n\n";
+   cin>>first>>sec;
+
+   cout << "Address Of First Variable :\n\n";
+   cout << &first <<"\n";
+
+   cout << "\nAddress Of Second Variable :\n\n";
+   cout << &sec << endl;
+   
+    cout << "\nAddress Of Third Variable :\n\n";
+   cout << &third << endl;
+
+   return 0;
+}
